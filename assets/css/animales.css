@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    background-color: black;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+button{
+    width: 30%;
+    margin: 30px auto;
+    background-color: #f4f4f4;;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+ button:hover{
+     cursor: pointer;
+ }
+ ul{
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     width: 400px;
+ }
+ ul li{
+     margin: 10px;
+     list-style: none;
+ }
